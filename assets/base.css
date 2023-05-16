@@ -3,11 +3,11 @@ header {
 }
 
 
-/* Make the color scheme light colored */
+/* Make the color scheme beige colored */
 
 body {
-    background-color: #FFFFFF;
-    color: #000000;
+    color: #555;
+    background-color: #fff;
 
     /* Add padding and margins for the text */
     padding: 10px;
