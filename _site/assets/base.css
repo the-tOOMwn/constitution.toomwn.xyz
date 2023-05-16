@@ -1,6 +1,27 @@
-header {
-    color: green;
+/* import garamond font */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+* {
+    font-family: 'EB Garamond', serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
 }
+
+header {
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
 
 
 /* Make the color scheme beige colored */
