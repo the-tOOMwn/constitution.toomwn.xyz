@@ -8,9 +8,12 @@ header {
 body {
     background-color: #FFFFFF;
     color: #000000;
+
+    /* Add padding and margins for the text */
+    padding: 10px;
+    margin: 10px;
+
+
+
 }
-
-
-
-
 
