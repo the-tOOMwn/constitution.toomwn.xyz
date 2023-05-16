@@ -2,6 +2,15 @@ header {
     color: green;
 }
 
-html {
-    background-color: blue;
+
+/* Make the color scheme light colored */
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
 }
+
+
+
+
+
