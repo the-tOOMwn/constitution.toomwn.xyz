@@ -1,0 +1,19 @@
+header {
+    color: green;
+}
+
+
+/* Make the color scheme beige colored */
+
+body {
+    color: #555;
+    background-color: #fff;
+
+    /* Add padding and margins for the text */
+    padding: 10px;
+    margin: 10px;
+
+
+
+}
+
