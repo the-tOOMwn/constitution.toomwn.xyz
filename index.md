@@ -17,7 +17,7 @@ Documents part of the Constitution can be found here.
 ## Laws
 Laws can be found here, including laws that have been enacted, currently being voted on, or failed laws.
 
-[Test Laws](/laws/TestLaw.md)
+[Laws](/laws/town-laws.md)
 
 
 <div id="news"></div>
