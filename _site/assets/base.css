@@ -63,7 +63,7 @@ html {
     margin-left: 0px;
     margin-top: 20px;
     background-color: #363A3D;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .news-item {
@@ -81,5 +81,11 @@ a, a:visited, a:hover, a:active {
 
 #footer {
     text-align: center;
-    padding-top: 30px;
+    padding-top: ;
+}
+
+#titleheader {
+    font-size: 50px;
+    text-decoration: none;
+    color: #c2c0bc;
 }
