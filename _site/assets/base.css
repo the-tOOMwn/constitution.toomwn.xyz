@@ -6,10 +6,10 @@
     font-family: 'EB Garamond', serif;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none; 
+    background-color: #181A1B;
 }
 
 header {
-    color: #333;
     text-align: center;
     padding: 5px;
     margin: 5px;
@@ -25,11 +25,16 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif !important;
+    
+}
+
+h2, h3 {
+    text-decoration: underline;
 }
 /* Make the color scheme beige colored */
 
 body {
-    color: #555;
+    color: #c2c0bc;
     background-color: #fff;
 
     margin-left: 50px;
@@ -54,4 +59,12 @@ html{
 .news-item {
     margin: 20px;
     display: inline-block;
+}
+
+a, a:visited, a:hover, a:active {
+    color: rgb(21, 93, 175);
+}
+
+.news-title {
+    color: #c2c0bc !important;
 }
