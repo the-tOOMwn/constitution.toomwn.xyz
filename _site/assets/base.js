@@ -4,7 +4,12 @@ latest_news = [
     {
         title: "TestComment",
         date: "2023-05-16",
-        desc: "Test"
+        desc: "<a href='law-amendments/cool.html'>cool</a>"
+    },
+    {
+        title: "AnotherTest",
+        date: "2023-05-16",
+        desc: "<a href='law-amendments/among.html'>among</a>"
     },
 ]
 

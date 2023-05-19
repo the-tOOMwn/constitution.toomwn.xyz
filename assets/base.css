@@ -36,6 +36,7 @@ body {
     margin-right: 50px;
     font-size: 22px;
 
+    margin-bottom: 60px;
 
 }
 
@@ -43,4 +44,14 @@ body {
 html{
     margin-left: 85px;
     margin-right: 50px;
+}
+
+#news {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.news-item {
+    margin: 20px;
+    display: inline-block;
 }
