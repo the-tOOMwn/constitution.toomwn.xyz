@@ -71,10 +71,13 @@ html {
     display: inline-block;
     background-color: #181A1B;
     padding: 20px;
-    border-radius: 20px;
-    width: 200px;
+    border-radius: 50px;
+    width: 300px;
 
 }
+
+/* taj fix the item size!!!! i dont know how this works bro */
+
 a, a:visited, a:hover, a:active {
     color: rgb(21, 93, 175);
 }

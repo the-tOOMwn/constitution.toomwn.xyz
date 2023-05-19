@@ -7,8 +7,8 @@ laws_amendments = [
         date: "2023-05-16",
     },
     {
-        title: "vote2",
-        link: "votes/vote2.html",
+        title: "Constitution Ratification",
+        link: "votes/Constitution Ratification.html",
         date: "2023-05-16",
     },
 ]
