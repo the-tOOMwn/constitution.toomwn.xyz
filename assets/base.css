@@ -50,6 +50,7 @@ html {
     margin-left: 0px;
     margin-top: 20px;
     background-color: aqua;
+    border-radius: 20px;
 }
 
 .news-item {
