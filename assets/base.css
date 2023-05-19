@@ -93,3 +93,23 @@ a, a:visited, a:hover, a:active {
 #footerlink {
     color: #c2c0bc;
 }
+
+#relstats{
+    text-align: center;
+}
+
+#statusapproved{
+    font-weight: bold;
+    color: rgb(4, 202, 4);
+}
+
+#statusdenied{
+    font-weight: bold;
+    color: red;
+}
+
+#statusunknown{
+    font-weight: bold;
+    color: orange;
+}
+

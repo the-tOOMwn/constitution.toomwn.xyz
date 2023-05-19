@@ -1,5 +1,4 @@
 
-{% if page.countedvotes or page.yesvotes or page.novotes or page.status %}
 <div id="relstats">
 <hr>
 <h3>Relevant Statistics</h3>
@@ -12,10 +11,17 @@
 {% if page.novotes %}
 <p>No votes: {{ page.novotes }}</p>
 {% endif %}
-{% if page.status %}
-<p>Status: {{ page.status }}</p>
+
+<!--will always show the status of a vote-->
+
+{% if page.status == "Approved" %}
+<p id="statusapproved">Status: {{ page.status }}</p>
+{% elsif page.status == "Denied" %}
+<p id="statusdenied">Status: {{ page.status }}</p>
+{% else %}
+<p id="statusunknown">Status: Processing or unknown</p>
 {% endif %}
+
 <hr>
 </div>
-{% endif %}
 <!--maybe make it so the status is green if approved, red if denied-->
