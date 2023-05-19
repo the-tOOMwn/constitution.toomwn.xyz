@@ -2,13 +2,13 @@
 
 laws_amendments = [
     {
-        title: "cool",
-        link: "law-amendments/cool.html",
+        title: "vote1",
+        link: "votes/vote1.html",
         date: "2023-05-16",
     },
     {
-        title: "among",
-        link: "law-amendments/among.html",
+        title: "vote2",
+        link: "votes/vote2.html",
         date: "2023-05-16",
     },
 ]

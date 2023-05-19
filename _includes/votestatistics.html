@@ -1,0 +1,21 @@
+
+{% if page.countedvotes or page.yesvotes or page.novotes or page.status %}
+<div id="relstats">
+<hr>
+<h3>Relevant Statistics</h3>
+{% if page.countedvotes %}
+<p>Counted votes: {{ page.countedvotes }}</p>
+{% endif %}
+{% if page.yesvotes %}
+<p>Yes votes: {{ page.yesvotes }}</p>
+{% endif %}
+{% if page.novotes %}
+<p>No votes: {{ page.novotes }}</p>
+{% endif %}
+{% if page.status %}
+<p>Status: {{ page.status }}</p>
+{% endif %}
+<hr>
+</div>
+{% endif %}
+<!--maybe make it so the status is green if approved, red if denied-->
