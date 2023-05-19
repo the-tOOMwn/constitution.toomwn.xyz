@@ -1,5 +1,6 @@
-/* import garamond font */
+
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 * {
     font-family: 'EB Garamond', serif;
@@ -14,7 +15,6 @@ header {
     margin: 5px;
     font-size: 1.5rem;
     font-weight: bold;
-
     
 }
 
@@ -23,18 +23,24 @@ header {
 }
 
 
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif !important;
+}
 /* Make the color scheme beige colored */
 
 body {
     color: #555;
     background-color: #fff;
 
-    /* Add padding and margins for the text */
-    padding: 10px;
-    margin: 10px;
-
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
 
 
 }
 
+
+html{
+    margin-left: 85px;
+    margin-right: 50px;
+}

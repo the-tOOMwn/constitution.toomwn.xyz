@@ -2,15 +2,10 @@
 
 latest_news = [
     {
-        title: "Mace's Comments",
+        title: "TestComment",
         date: "2023-05-16",
-        desc: "MacE wants to join Ed in jumping off a cliff during the process of trying to run the site locally with Jekyll."
+        desc: "Test"
     },
-    {
-        title: "Ed's comments",
-        date: "2023-05-17",
-        desc: "among usus"
-    }
 ]
 
 window.onload = () => {
