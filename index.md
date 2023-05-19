@@ -3,8 +3,6 @@ layout: index
 title: The Town Constitution
 ---
 
----
-
 ## Edition
 1.0, valid as of 12-05-2023
 

@@ -23,7 +23,7 @@ window.onload = () => {
         laws_title.setAttribute('href', laws_amendments[i].link)
         laws_title.innerHTML = laws_amendments[i].title
    
-        laws_title.setAttribute("style", "color: #c2c0bc !important;");
+        laws_title.setAttribute("style", "color: #c2c0bc !important;text-decoration: none;font-family: 'Merriweather', serif !important;font-weight: 500;");
         laws_title.style.fontSize = "170%";
 
         var laws_date = document.createElement("h4");
