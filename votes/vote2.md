@@ -1,12 +1,16 @@
 ---
 layout: vote
 title: vote2
+possiblevotes: 20
 countedvotes: 14
 yesvotes: 14
 novotes: 0
+deadline: 06-09-2023
+status: Approved
 ---
 
-[this is also a comment, the possible options are Approved, Denied, and a whatever will give a "Status: Processing or unknown"]: #
+[this is also a comment, the possible status options are Approved, Denied, and a whatever will give a "Status: Processing or unknown"]: #
+[this is also a comment, all possible statistics are shown here."]: #
 
 this is a law, but what is a law exactly ? like seriously, i'm bnot a sloaw student, so i dont actually now. plthisease dm me on de59foscord iba i am defienitely not triyng to fsill in space to i ccan eshe ohw shtjs work visrtgisoaully i trust mheh guys i nrthornoac comsmtuhsnists liiii ??????????????????????????????????????????????????????????????????????????????? strokes
 

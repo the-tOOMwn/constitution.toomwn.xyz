@@ -2,6 +2,9 @@
 <div id="relstats">
 <hr>
 <h3>Relevant Statistics</h3>
+{% if page.possiblevotes %}
+<p>Vote population: {{ page.possiblevotes }}</p>
+{% endif %}
 {% if page.countedvotes %}
 <p>Counted votes: {{ page.countedvotes }}</p>
 {% endif %}
@@ -10,6 +13,9 @@
 {% endif %}
 {% if page.novotes %}
 <p>No votes: {{ page.novotes }}</p>
+{% endif %}
+{% if page.deadline %}
+<p>Deadline: {{ page.deadline }}</p>
 {% endif %}
 
 <!--will always show the status of a vote-->

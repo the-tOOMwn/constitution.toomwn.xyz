@@ -1,6 +1,10 @@
 ---
 layout: vote
 title: vote1
+yesvotes: 14
+novotes: 0
+deadline: 06-09-2023
+possiblevotes: 20
 ---
 
 amends
