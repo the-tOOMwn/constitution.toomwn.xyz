@@ -19,23 +19,23 @@ window.onload = () => {
         //create elements
         var laws_item = document.createElement("div");
 
-        var laws_title = document.createElement("a");
+        var laws_title = document.createElement("a", 'href', laws_amendments[i].link);
         laws_title.setAttribute('href', laws_amendments[i].link)
-        laws_title.innerText = laws_amendments[i].title
-        
+        laws_title.innerHTML = laws_amendments[i].title
+   
+        laws_title.setAttribute("style", "color: #c2c0bc !important;");
+        laws_title.style.fontSize = "170%";
 
         var laws_date = document.createElement("h4");
         laws_date.innerHTML = laws_amendments[i].date;
         
         //add classes
         laws_item.classList.add("news-item");
-        laws_title.classList.add("news-title");
         laws_date.classList.add("news-date");
+        
         //append elements
         laws_item.appendChild(laws_title);
         laws_item.appendChild(laws_date);
         document.getElementById("news").appendChild(laws_item);
     }
 }
-
-console.log("amongus")
