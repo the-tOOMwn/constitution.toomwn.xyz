@@ -41,17 +41,23 @@ body {
 }
 
 
-html{
+html {
     margin-left: 85px;
     margin-right: 50px;
 }
 
 #news {
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 20px;
+    background-color: aqua;
 }
 
 .news-item {
     margin: 20px;
     display: inline-block;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+
 }
