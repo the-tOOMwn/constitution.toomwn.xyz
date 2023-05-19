@@ -55,12 +55,13 @@ html {
     margin-left: 0px;
     margin-top: 20px;
     background-color: #363A3D;
+    border-radius: 20px;
 }
 
 .news-item {
     margin: 20px;
     display: inline-block;
-    background-color: red;
+    background-color: #181A1B;
     padding: 20px;
     border-radius: 20px;
     width: 200px;
