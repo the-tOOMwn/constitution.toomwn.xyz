@@ -25,16 +25,20 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif !important;
+
     
 }
 
 h2, h3 {
     text-decoration: underline;
 }
+
+h1,h2,h3,h4,h5,h6,p,li{
+    color: #c2c0bc;
+}
 /* Make the color scheme beige colored */
 
 body {
-    color: #c2c0bc;
 
     margin-left: 50px;
     margin-right: 50px;
