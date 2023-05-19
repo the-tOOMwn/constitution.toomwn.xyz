@@ -1,6 +1,6 @@
 //bozo down. edward, jekyll sucks. I can't spell it right hald the time
 
-latest_news = [
+laws_amendments = [
     {
         title: "cool",
         link: "law-amendments/cool.html",
@@ -15,26 +15,26 @@ latest_news = [
 
 window.onload = () => {
     //loop through latest news and create elements
-    for (var i = 0; i < latest_news.length; i++) {
+    for (var i = 0; i < laws_amendments.length; i++) {
         //create elements
-        var news_item = document.createElement("div");
+        var laws_item = document.createElement("div");
 
-        var news_title = document.createElement("a");
-        news_title.setAttribute('href', latest_news[i].link)
-        news_title.innerText = latest_news[i].title
+        var laws_title = document.createElement("a");
+        laws_title.setAttribute('href', laws_amendments[i].link)
+        laws_title.innerText = laws_amendments[i].title
         
 
-        var news_date = document.createElement("h4");
-        news_date.innerHTML = latest_news[i].date;
+        var laws_date = document.createElement("h4");
+        laws_date.innerHTML = laws_amendments[i].date;
         
         //add classes
-        news_item.classList.add("news-item");
-        news_title.classList.add("news-title");
-        news_date.classList.add("news-date");
+        laws_item.classList.add("news-item");
+        laws_title.classList.add("news-title");
+        laws_date.classList.add("news-date");
         //append elements
-        news_item.appendChild(news_title);
-        news_item.appendChild(news_date);
-        document.getElementById("news").appendChild(news_item);
+        laws_item.appendChild(laws_title);
+        laws_item.appendChild(laws_date);
+        document.getElementById("news").appendChild(laws_item);
     }
 }
 
