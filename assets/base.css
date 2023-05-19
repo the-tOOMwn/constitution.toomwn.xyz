@@ -89,3 +89,7 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
     color: #c2c0bc;
 }
+
+#footerlink {
+    color: #c2c0bc;
+}
