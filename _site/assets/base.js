@@ -2,15 +2,15 @@
 
 laws_amendments = [
     {
-        title: "vote1",
-        link: "votes/vote1.html",
-        date: "2023-05-16",
-    },
-    {
         title: "Constitution Ratification",
         link: "votes/Constitution Ratification.html",
         date: "2023-05-16",
     },
+    {
+        title: "Speaker Vote",
+        link: "votes/Speaker Vote.html",
+        date: "2023-05-16",
+    }
 ]
 
 window.onload = () => {
