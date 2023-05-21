@@ -10,6 +10,11 @@ laws_amendments = [
         title: "Speaker Vote",
         link: "votes/Speaker Vote.html",
         date: "2023-05-16",
+    },
+    {
+        title: "Mayo Vote",
+        link: "votes/Mayo Vote.html",
+        date: "2023-05-16",
     }
 ]
 
