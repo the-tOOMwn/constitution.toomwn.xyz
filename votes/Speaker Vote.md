@@ -1,9 +1,10 @@
 ---
 layout: vote
 title: Speaker Vote
-status: Denied
+status: In progress
 ---
 
 Speakerification
 
-Cancelled? What in the sus? Is this democracy?
+Temporarily canceled due to the vote being done incorrectly in accordance to the constitution.  
+A new vote is under way.
