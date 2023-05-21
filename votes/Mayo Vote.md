@@ -6,7 +6,7 @@ countedvotes: 10
 yesvotes: 8
 novotes: 2
 deadline: 24-05-2023
-status: In the process of processing amirite!
+status: Approved
 ---
 
 A vote for Ed to replace Shan-Mei as mayo of town, among other things.
