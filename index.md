@@ -7,7 +7,7 @@ title: The Town Constitution
 1.0, valid as of 12-05-2023
 
 ## Preface
-Presently we live in an assumed democracy. The democratic system is in place, however it is ambiguous and not defined. This bill will serve as a constitution of sorts that will outline the procedures for direct democracy to occur.
+Presently we live in an assumed "democracy". The democratic system is in place, however it is ambiguous and not defined. This bill will serve as a constitution of sorts that will outline the procedures for direct democracy to occur.
 
 ## Voting
 We are a small town. We do not have a large enough population to require representatives.
