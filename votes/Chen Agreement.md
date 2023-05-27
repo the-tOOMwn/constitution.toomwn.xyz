@@ -3,7 +3,7 @@ layout: agreement
 title: spicata-Mayo agreement
 party1: Edward
 party2: spicata
-p1status: Unknown
+p1status: Approved
 p2status: Approved
 ---
 
