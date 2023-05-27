@@ -1,0 +1,41 @@
+
+<div id="relstats">
+    <hr>
+    <h3>Relevant Statistics</h3>
+    {% if page.party1 %}
+    <p>Party 1: {{ page.party1 }}</p>
+    {% endif %}
+    {% if page.party2 %}
+    <p>Party 2: {{ page.party2 }}</p>
+    {% endif %}
+    
+    <!--will always show the status of a vote-->
+    
+    {% if page.p1status == "Approved" %}
+    <p id="statusapproved">Party 1 Status: {{ page.p1status }}</p>
+    {% elsif page.p1status == "Denied" %}
+    <p id="statusdenied">Party 1 Status: {{ page.p1status }}</p>
+    {% else %}
+    <p id="statusunknown">Party 1 Status: Processing or unknown</p>
+    {% endif %}
+
+    {% if page.p2status == "Approved" %}
+    <p id="statusapproved">Party 2 Status: {{ page.p2status }}</p>
+    {% elsif page.p2status == "Denied" %}
+    <p id="statusdenied">Party 2 Status: {{ page.p2status }}</p>
+    {% else %}
+    <p id="statusunknown">Party 2 Status: Processing or unknown</p>
+    {% endif %}
+
+    {% if page.p1status == "Approved" and page.p2status == "Approved" %}
+    <p id="statusapproved">Status: Approved</p>
+    {% elsif page.p1status == "Denied" or page.p2status == "Denied" %}
+    <p id="statusdenied">Status: Denied</p>
+    {% else %}
+    <p id="statusunknown">Status: Processing or unknown</p>
+    {% endif %}
+    
+    <hr>
+    </div>
+    <!--maybe make it so the status is green if approved, red if denied-->
+    

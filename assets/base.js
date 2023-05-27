@@ -15,6 +15,11 @@ laws_amendments = [
         title: "Mayo Vote",
         link: "votes/Mayo Vote.html",
         date: "2023-05-16",
+    },
+    {
+        title: "Chen Agreeement",
+        link: "votes/Chen Agreement.html",
+        date: "2023-05-26",
     }
 ]
 
