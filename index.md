@@ -2,7 +2,6 @@
 layout: index
 title: The Town Constitution
 ---
-[townpolitics](townpoliticalview.html)
 
 ## Edition
 1.0, valid as of 12-05-2023
@@ -73,6 +72,11 @@ To forcefully remove a member, a vote must be held that reaches a supportive maj
 Members can leave at any time, but those who do are not necessarily immediately reinstated if they change their mind.
 
 To mute or temporarily suspend the membership of an individual, a vote must garner a 60% majority. This kind of "censor" vote cannot be held against either the mayor or the speaker.
+
+
+<div id="politicsdiv">
+<a href="/townpoliticalview.html" id="politics">Click for politics!</a>
+</div>
 
 ---
 

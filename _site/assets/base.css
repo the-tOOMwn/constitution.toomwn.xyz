@@ -120,3 +120,17 @@ a, a:visited, a:hover, a:active {
     color: orange;
 }
 
+#politics {
+    color: #c2c0bc;
+    text-align: center;
+    border: 2px solid white;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #363A3D;
+}
+
+#politicsdiv{
+    text-align: center;
+}
