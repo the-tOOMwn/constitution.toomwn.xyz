@@ -3,17 +3,9 @@ layout: default
 title: A guide on how to update 
 ---
 
-The svg is stored in the assets folder.
+Use colours defined already (if new party usually request a colour if not oh well who cares)
 
-Go to [here](https://parliamentdiagram.toolforge.org/parlitest.php) and upload
-
-Modify the party things
-
-Download new svg
-
-Replace current svg
-
-Convert this svg to png
+Go [here](https://parliamentdiagram.toolforge.org/parlitest.php) and fill in stuff
 
 Replace current png
 

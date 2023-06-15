@@ -8,16 +8,16 @@ title: The state of Town politics
 # List of parties
 
 ## Major parties
-Quartz: 8
+Quartz: 8 - #FF0000
 
-Jekyll: 7
+Jekyll: 7 - #E6C805
 
 ## Independents/Fringe
-Notionites: 3
+Notionites: 3 - #191919
 
-Zolist: 1
+Zolist: 1 - #714AF8
 
-Wixer: 2
+Wixer: 2 - #FBBD71
 
 [How to update](updatepolitics.html)
 
