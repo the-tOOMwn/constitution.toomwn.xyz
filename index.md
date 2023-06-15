@@ -2,6 +2,7 @@
 layout: index
 title: The Town Constitution
 ---
+[townpolitics](townpoliticalview.html)
 
 ## Edition
 1.0, valid as of 12-05-2023
