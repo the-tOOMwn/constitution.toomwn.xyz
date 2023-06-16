@@ -25,7 +25,7 @@ laws_amendments = [
 
 window.onload = () => {
     //loop through latest news and create elements
-    for (var i = 0; i < laws_amendments.length; i++) {
+    for (var i = laws_amendments.length; i>= 0; i++) {
         //create elements
         var laws_item = document.createElement("div");
 
