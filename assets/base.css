@@ -11,6 +11,10 @@
     background-color: #181A1B;
 }
 
+ul {
+    list-style-position: inside;
+}
+
 header {
     text-align: center;
     margin: 5px;
